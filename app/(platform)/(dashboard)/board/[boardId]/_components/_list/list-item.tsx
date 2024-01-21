@@ -5,9 +5,9 @@ import { Draggable, Droppable } from "@hello-pangea/dnd";
 
 import { ListWithCards } from "@/types";
 import { ListHeader } from "./list-header";
-import { CardForm } from "./card-form";
-import { cn } from "../../../../../../lib/utils";
-import { CardItem } from "./card-item";
+import { CardForm } from "../_card/card-form";
+import { cn } from "../../../../../../../lib/utils";
+import { CardItem } from "../_card/card-item";
 
 interface ListItemProps {
   data: ListWithCards;
